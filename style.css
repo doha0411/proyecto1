@@ -1,25 +1,29 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: blueviolet;
+
+body {
+    background-color: rgb(71, 7, 131);
 }
-h1{
+
+h1 {
     color: white;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 50px;
 }
-main{
+
+main {
     margin: 30px;
 }
-section{
+
+section {
     margin: auto;
     padding: 10px;
 }
 
-img{
+img {
     width: 250px;
     height: 110px;
     margin: auto;
@@ -27,14 +31,13 @@ img{
     align-items: center;
 }
 
-@media(max-width:576px){
-    img{
+@media(max-width:576px) {
+    img {
         width: 100%;
         height: auto;
         margin: 10px 0 0;
     }
-    main{
+    main {
         display: block;
     }
 }
-
