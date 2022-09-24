@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +8,26 @@
     <link rel="stylesheet" href="style.css">
     <title>PROYECTO 1</title>
 </head>
+
 <body>
-<main>
-    <section>
-        <h1>Giphy Explorer</h1>
-        <input type="search" class="Agregar-text" id="search" placeholder="ingresa tu busqueda">
-        <button type="button" class="button_buscar" id="boton">Buscar</button>
-    </section>
-    <div id="galeria">
-        
-    </div>
-</main>
-<script src="./main.js"></script>    
+    <main>
+        <section>
+            <h1>Giphy Explorer</h1>
+            <form id="formulario">
+                <input type="search" class="agregar-text" id="search" placeholder="ingresa tu busqueda">
+                <input type="hidden" class="agregar-text" id="search2" placeholder="ingresa tu busqueda" value="">
+                <button type="submit" class="button_buscar" id="boton">Buscar</button>
+            </form>
+            <div id="listaBusquedas">
+
+            </div>
+        </section>
+        <div id="galeria" onclick="searchFunction()">
+
+        </div>
+    </main>
+    <script src="./main.js"></script>
+    <script src="./localStorage.js"></script>
 </body>
+
 </html>
