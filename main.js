@@ -89,7 +89,7 @@ const getData = async() => {
 }
 
 //las ultimas 3 busquedas en pantalla y se puedan ejecutar de nuevo
-const enviarvalor = (search) => {
+const enviarValor = (search) => {
     document.getElementById('search2').value = search;
     searchValue();
 }
